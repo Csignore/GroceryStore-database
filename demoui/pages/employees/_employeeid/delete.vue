@@ -2,13 +2,13 @@
   <section class="employee-view">
     <div class="content">
       <div class="subsection">
-      <span class="employee-employeeid" style="padding: 10px 0 10px 10px; margin: 10px 0 10px 0;">{{`Employee ${employees.employeeid}` }}
-        </span>
+
         <span class="employee-employeename" style="padding: 10px 10px; margin: 10px 0 10px 0;">{{ `${employees.employeename}` }}
         </span>
-        <span class="employee-position" style="padding: 10px 10px; margin: 10px 0 10px 0;">{{ `${employees.position}` }}
+        <span class="employee-position" style="padding: 10px 10px; margin: 10px 0 10px 0;">is a {{ `${employees.position}` }}
         </span>
         <br><br>
+        <h4 id="fireButton"> ARE YOU SURE TO FIRE THIS EMPLOYEE?</h4>
 
         <form style="margin: 15px 15px;">
             
