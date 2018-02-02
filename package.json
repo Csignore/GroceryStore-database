@@ -13,8 +13,7 @@
     "build": "nuxt build && backpack build",
     "start": "cross-env NODE_ENV=production node build/main.js",
     "precommit": "npm run lint",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "postinstall": "npm run dev"
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
     "@nuxtjs/pwa": "^1.0.2",
