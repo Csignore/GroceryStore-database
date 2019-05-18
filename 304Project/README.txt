@@ -1,1 +1,0 @@
-We used draw.io, an online software for making diagrams, to create our ER diagram.
