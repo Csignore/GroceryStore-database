@@ -2,7 +2,7 @@
   <div class="header">
     <div class="inner">
       <router-link class="home-link" to="/" exact>
-        <img class="logo" src="~/assets/img/happy.png" alt="logo">
+        <img class="logo" src="assets/img/happy.png" alt="logo">
       </router-link>
       <a class="github" href="https://github.com/hxqlin/grocery-store-database" target="_blank" rel="noopener">
         Github
